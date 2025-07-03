@@ -10,8 +10,8 @@
 
 ## Contact information:
 
-<div><b>Phone:</b> <i>322-134-5466</i></div>
-<div><b>Email:</b> <i>yarik87@gmail.com</i></div>
+<div><b>Phone:</b> <i>+1(437)-134-5466</i></div>
+<div><b>Email:</b> <i>yaroslav.balyuk@gmail.com</i></div>
 <div><i><a href='https://github.com/Derril87'>GitHub</a></i></div>
 <div><i><a href="https://t.me/derril_87">Telegram</a></i></div>
 <div><i><a href="https://www.linkedin.com/in/yaroslav-baliuk-72418a183/">LinkedIn</a></i></div>
@@ -33,7 +33,7 @@ I am determined, persistent, and resilient — qualities that help me stay on tr
 ## Skills:
 
 - JavaScript (JS), HTML, CSS
-- React, TypeScript, Vite
+- React, TypeScript, Vite, Redux
 - Tailwind CSS, Chakra UI, Bootstrap
 - Node.js, Express.js, REST API
 - JSON, Nunjacks
