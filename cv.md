@@ -1,6 +1,6 @@
 # Yaroslav Baliuk
 
-<img src="pictures/photo.jpeg" alt="My photo" width="110" height="140">
+<img src="assets/photo.jpg" alt="My photo" width="110" height="140">
 
 ---
 

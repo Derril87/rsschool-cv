@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- prettier-ignore -->
-    <meta charset="UTF-8" >
-    <!-- prettier-ignore -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header header-container">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#summary-statement" class="nav-link">Summary statement</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code-review" class="nav-link">Code review</a></li>
+            <li class="nav-item"><a href="#work-experience" class="nav-link">Work experience</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+      </div>
+    </header>
+    <main class="main main-container">
+      <div class="container">
+        <div class="main-columns">
+        <aside class="left-column">
+        <section class="section" id="profile">
+          <div class="photo-wrapper">
+            <img src="assets/photo.jpg" alt="avatar" class="header-photo" />
+            <h1 class="section-title">Yaroslav Baliuk</h1>
+            <p class="section-subtitle">Junior Frontend Developer</p>
+            <p class="section-text">I am a junior frontend developer with a passion for creating user-friendly web applications.</p>
+          </div>
+        </section>
+        <div class="section-container">
+        <section class="section" id="contact">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li><b>Phone:</b> <i>+1(437)-134-5466</i></li>
+                <li><b>Email:</b> <i>yaroslav.balyuk@gmail.com</i></li>
+                <li><i><a href='https://github.com/Derril87'>GitHub</a></i></li>
+                <li><i><a href="https://t.me/derril_87">Telegram</a></i></li>
+                <li><i><a href="https://www.linkedin.com/in/yaroslav-baliuk-72418a183/">LinkedIn</a></i></li>
+            </ul>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>JavaScript (JS), HTML, CSS</li>
+                <li>React, TypeScript, Vite, Redux</li>
+                <li>Tailwind CSS, Chakra UI, Bootstrap</li>
+                <li>Node.js, Express.js, REST API</li>
+                <li>JSON, Nunjacks</li>
+                <li>Docker, MongoDB, PostgreSQL</li>
+                <li>Agile Methodologies</li>
+                <li>Problem Solving</li>
+                <li>Version Control (Git)</li>
+                <li>Testing (Jest, React Testing Library)</li>
+            </ul>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <div>
+              <div><span style="font-style: italic; color: #024b87">English</span> - Intermediate</div>
+              <div><span style="font-style: italic; color: #024b87">Russian</span> - Native</div>
+              <div><span style="font-style: italic; color: #024b87">Ukrainian</span> - Native</div>
+              <div><span style="font-style: italic; color: #024b87">Polish</span> - Pre-Intermediate</div>
+            </div>    
+        </section>
+        </div>
+        </aside>
+        <section class="right-column">
+            <section class="section" id="summary-statement">
+            <h2 class="section-title">Summary statement</h2>
+            <p>My journey as a programmer began three years ago with online courses on the UDEMY platform. Within the first year, I completed courses in JavaScript, HTML, and CSS, and started applying my skills by creating personal pet projects. However, I soon realized that I needed a deeper understanding to build full-fledged applications.</p>
+            <p>To improve my skills, I enrolled in a one-year full-stack developer program at the PASV coding school, where I expanded my knowledge of React and backend development. During this time, I built several basic projects and applications, learned how to work with APIs and JSON, and later joined an internship where we studied the principles of a custom-built CRM system.</p>
+            <p>Currently, I’m diving deeper into backend technologies, exploring modern frameworks, and practicing algorithmic problems involving trees, graphs, and linked lists.</p>
+            <p>I am determined, persistent, and resilient — qualities that help me stay on track and overcome challenges. I’m always striving to improve my skills, become the best at what I do, and collaborate and share knowledge with my peers in both educational and work environments.</p>
+        </section>
+        <section class="section" id="code-review">
+            <h2 class="section-title">Code review</h2>
+            <h3>KATA from LeetCode - Two sum:</h3>
+            <p><i>In this task, we are given an array of integers and a target integer. The goal is to find two numbers in the array that add up to the target and return their indices.</i></p>
+            <pre><code>
+               function(nums, target) {
+                 const map = new Map();
+                 for (let i = 0; i < nums.length; i++) {
+                   let diff = target - nums[i];
+                   if (map.has(diff)) {
+                     return [i, map.get(diff)];
+                   }
+                   map.set(nums[i], i);
+                 }
+                 return [-1, -1];
+               }
+            </code></pre>
+        </section>
+        <section class="section" id="work-experience">
+            <h2 class="section-title">Work experience</h2>
+            <h3>Full-Stack Developer</h3>
+            <p><i>DigitalVertex Enterprises</i> - <i>USA</i> - <i>Full time - June 2024 - Current</i></p>
+            <ul>
+                <li>Collaborating with cross-functional teams in an Agile/Scrum environment to deliver high-quality features on time.</li>
+                <li>Developing and maintaining front-end components using React, TypeScript, Tailwind CSS.</li>
+                <li>Building and optimizing RESTful APIs and backend services with Node.js and Express.</li>
+                <li>Integrating and managing PostgreSQL/MongoDB databases, ensuring data consistency and performance.</li>
+                <li>Participating in code reviews, daily stand-ups, sprint planning and retrospectives</li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <b>IT Courses UDEMY</b>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>React</li>
+              <li>JavaScript
+              <ul>
+                <li>Basics</li>
+                <li>Asynchronous Programming</li>
+              </ul>
+              </li>
+            </ul>
+            <b>PASV school</b>
+            <ul>
+              <li><u>Frontend</u>
+              <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Tailwind</li>
+              </ul>
+              </li>
+                <li><u>Backend</u>
+                <ul>
+                  <li>Node.js</li>
+                  <li>JSON</li>
+                  <li>API</li>
+                  <li>PostgreSQL</li>
+                  <li>Docker</li>   
+                </ul>
+                </li>
+            </ul>
+        </section>
+        </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer footer-container">
+      <div class="container">
+        <div>
+          © 2022 <a href="https://github.com/Derril87">Derril87.</a> All rights reserved.
+        </div>
+        <a href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b26a2d42335feffe9cfc3d73accdf61e420917da/tasks/cv/rs-school-logo.svg" alt="RS School logo" width="150" height="150"/></a>
+      </div>
+    </footer>
+  </body>
 </html>
