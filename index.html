@@ -1,11 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- prettier-ignore -->
-    <meta charset="UTF-8" >
-    <!-- prettier-ignore -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header header-container">
+      <div class="container">
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <img src="assets/YB.png" alt="logo-icon" width="80" height="80" />
+        </button>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary-statement" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-review" class="nav-link">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work-experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main main-container">
+      <div class="container">
+        <div class="main-columns">
+          <aside class="left-column">
+            <section class="section" id="profile">
+              <div class="photo-wrapper">
+                <img src="assets/photo.jpg" alt="avatar" class="header-photo" />
+                <h1 class="section-title">Yaroslav Baliuk</h1>
+                <p class="section-subtitle"><b>Junior Frontend Developer</b></p>
+                <p class="section-text">
+                  <i>
+                    I am a junior frontend developer with a passion for creating
+                    user-friendly web applications.
+                  </i>
+                </p>
+              </div>
+            </section>
+            <div class="section-container">
+              <section class="section" id="contact">
+                <h2 class="section-title-left">Contacts</h2>
+                <div>
+                  <ul>
+                    <li><b>Phone:</b> <i>+1(437)-134-7548</i></li>
+                    <li><b>Email:</b> <i>yaroslav.balyuk@gmail.com</i></li>
+                  </ul>
+                </div>
+                <div class="social-links">
+                  <ul>
+                    <li>
+                      <i
+                        ><a href="https://github.com/Derril87"
+                          ><img
+                            src="assets/icons/github.png"
+                            alt="github-icon" /></a
+                      ></i>
+                    </li>
+                    <li>
+                      <i
+                        ><a href="https://t.me/derril_87"
+                          ><img
+                            src="assets/icons/telegram.png"
+                            alt="telegram-icon" /></a
+                      ></i>
+                    </li>
+                    <li>
+                      <i
+                        ><a
+                          href="https://www.linkedin.com/in/yaroslav-baliuk-72418a183/"
+                          ><img
+                            src="assets/icons/linkedin.png"
+                            alt="linkedin-icon" /></a
+                      ></i>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <br />
+              <section class="section" id="skills">
+                <h2 class="section-title-left">Skills</h2>
+                <ul>
+                  <li>&cir; JavaScript (JS), HTML, CSS</li>
+                  <li>&cir; React</li>
+                  <li>&cir; Tailwind CSS</li>
+                  <li>&cir; Node.js</li>
+                  <li>&cir; JSON</li>
+                  <li>&cir; Docker, PostgreSQL</li>
+                  <li>&cir; Agile Methodologies</li>
+                  <li>&cir; Problem Solving</li>
+                  <li>&cir; Version Control (Git)</li>
+                  <li>&cir; Testing (Jest, React Testing Library)</li>
+                </ul>
+              </section>
+              <br />
+              <section class="section" id="languages">
+                <h2 class="section-title-left">Languages</h2>
+                <div>
+                  <div>
+                    <span class="languages">English</span>
+                    - Intermediate
+                  </div>
+                  <div>
+                    <span class="languages">Russian</span>
+                    - Native
+                  </div>
+                  <div>
+                    <span class="languages">Ukrainian</span>
+                    - Native
+                  </div>
+                  <div>
+                    <span class="languages">Polish</span>
+                    - Pre-Intermediate
+                  </div>
+                </div>
+              </section>
+              <br />
+              <section class="section" id="portfolio">
+                <h2 class="section-title-left">Portfolio</h2>
+                <ul class="portfolio-list">
+                  <li>
+                    <a href="https://derril87.github.io/The-weather-app/"
+                      >The weather app 🌤️</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://derril87.github.io/Tic-Tac-Toe-app/"
+                      >Tic Tac Toe Game 🕹️</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://derril87.github.io/memory-game/"
+                      >Memory Game 🎲</a
+                    >
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </aside>
+          <section class="right-column">
+            <section class="section" id="summary-statement">
+              <h2 class="section-title-right">Summary statement</h2>
+              <p>
+                My journey as a programmer began three years ago with online
+                courses on the UDEMY platform. Within the first year, I
+                completed courses in JavaScript, HTML, and CSS, and started
+                applying my skills by creating personal pet projects. However, I
+                soon realized that I needed a deeper understanding to build
+                full-fledged applications.
+              </p>
+              <p>
+                To improve my skills, I enrolled in a one-year full-stack
+                developer program at the PASV coding school, where I expanded my
+                knowledge of React and backend development. During this time, I
+                built several basic projects and applications, learned how to
+                work with APIs and JSON, and later joined an internship where we
+                studied the principles of a custom-built CRM system.
+              </p>
+              <p>
+                Currently, I’m diving deeper into backend technologies,
+                exploring modern frameworks, and practicing algorithmic problems
+                involving trees, graphs, and linked lists.
+              </p>
+              <p>
+                I am determined, persistent, and resilient — qualities that help
+                me stay on track and overcome challenges. I’m always striving to
+                improve my skills, become the best at what I do, and collaborate
+                and share knowledge with my peers in both educational and work
+                environments.
+              </p>
+            </section>
+            <br />
+            <section class="section" id="code-review">
+              <h2 class="section-title-right">Code review</h2>
+              <h3>KATA from LeetCode - Two sum:</h3>
+              <p>
+                <i
+                  >In this task, we are given an array of integers and a target
+                  integer. The goal is to find two numbers in the array that add
+                  up to the target and return their indices.</i
+                >
+              </p>
+              <pre><code>
+               function(nums, target) {
+                 const map = new Map();
+                 for (let i = 0; i < nums.length; i++) {
+                   let diff = target - nums[i];
+                   if (map.has(diff)) {
+                     return [i, map.get(diff)];
+                   }
+                   map.set(nums[i], i);
+                 }
+                 return [-1, -1];
+               }
+            </code></pre>
+            </section>
+            <br />
+            <section class="section" id="work-experience">
+              <h2 class="section-title-right">Work experience</h2>
+              <h3>Full-Stack Developer</h3>
+              <p>
+                <i>DigitalVertex Enterprises</i> - <i>USA</i> -
+                <i>Full time - June 2024 - Current</i>
+              </p>
+              <ul>
+                <li>
+                  &#9673; Collaborating with cross-functional teams in an
+                  Agile/Scrum environment to deliver high-quality features on
+                  time.
+                </li>
+                <li>
+                  &#9673; Developing and maintaining front-end components using
+                  React, TypeScript, Tailwind CSS.
+                </li>
+                <li>
+                  &#9673; Building and optimizing RESTful APIs and backend
+                  services with Node.js and Express.
+                </li>
+                <li>
+                  &#9673; Integrating and managing PostgreSQL/MongoDB databases,
+                  ensuring data consistency and performance.
+                </li>
+                <li>
+                  &#9673; Participating in code reviews, daily stand-ups, sprint
+                  planning and retrospectives
+                </li>
+              </ul>
+            </section>
+            <br />
+            <section class="section" id="education">
+              <h2 class="section-title-right">Education</h2>
+              <div class="education-item">
+                <h4>Full-Stack Developer</h4>
+                - <a href="https://promo.pasv.us/">PASV School</a>
+              </div>
+              <div class="education-item">
+                <h4>The Ultimate React Course</h4>
+                -
+                <a
+                  href="https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/35882526?start=15#overview"
+                  >UDEMY</a
+                >
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer footer-container">
+      <div class="container">
+        <div>&copy; 2025 All rights reserved.</div>
+        <div class="footer-icon">
+          <img
+            src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+            alt="github icon"
+            width="30"
+            height="30"
+          />
+          <a href="https://github.com/Derril87"> Derril87</a>
+        </div>
+        <div>
+          <a href="https://rs.school/courses/javascript-ru"
+            ><img
+              src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b26a2d42335feffe9cfc3d73accdf61e420917da/tasks/cv/rs-school-logo.svg"
+              alt="RS School logo"
+              width="150"
+              height="150"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const toggleBtn = document.querySelector(".menu-toggle");
+      const navList = document.querySelector(".nav-list");
+
+      toggleBtn.addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
