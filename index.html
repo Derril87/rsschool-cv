@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    />
+    >
     <title>CV</title>
   </head>
   <body>
     <header class="header header-container">
       <div class="container">
         <button class="menu-toggle" aria-label="Toggle menu">
-          <img src="assets/YB.png" alt="logo-icon" width="80" height="80" />
+          <img src="assets/YB.png" alt="logo-icon" width="80" height="80">
         </button>
 
         <nav class="nav">
@@ -59,7 +59,7 @@
           <aside class="left-column">
             <section class="section" id="profile">
               <div class="photo-wrapper">
-                <img src="assets/photo.jpg" alt="avatar" class="header-photo" />
+                <img src="assets/photo.jpg" alt="avatar" class="header-photo">
                 <h1 class="section-title">Yaroslav Baliuk</h1>
                 <p class="section-subtitle"><b>Junior Frontend Developer</b></p>
                 <p class="section-text">
@@ -70,7 +70,7 @@
                 </p>
               </div>
             </section>
-            <div class="section-container">
+            <section class="section-container">
               <section class="section" id="contact">
                 <h2 class="section-title-left">Contacts</h2>
                 <div>
@@ -86,7 +86,7 @@
                         ><a href="https://github.com/Derril87"
                           ><img
                             src="assets/icons/github.png"
-                            alt="github-icon" /></a
+                            alt="github-icon"></a
                       ></i>
                     </li>
                     <li>
@@ -94,7 +94,7 @@
                         ><a href="https://t.me/derril_87"
                           ><img
                             src="assets/icons/telegram.png"
-                            alt="telegram-icon" /></a
+                            alt="telegram-icon"></a
                       ></i>
                     </li>
                     <li>
@@ -103,13 +103,13 @@
                           href="https://www.linkedin.com/in/yaroslav-baliuk-72418a183/"
                           ><img
                             src="assets/icons/linkedin.png"
-                            alt="linkedin-icon" /></a
+                            alt="linkedin-icon"></a
                       ></i>
                     </li>
                   </ul>
                 </div>
               </section>
-              <br />
+              <br>
               <section class="section" id="skills">
                 <h2 class="section-title-left">Skills</h2>
                 <ul>
@@ -125,7 +125,7 @@
                   <li>&cir; Testing (Jest, React Testing Library)</li>
                 </ul>
               </section>
-              <br />
+              <br>
               <section class="section" id="languages">
                 <h2 class="section-title-left">Languages</h2>
                 <div>
@@ -147,7 +147,7 @@
                   </div>
                 </div>
               </section>
-              <br />
+              <br>
               <section class="section" id="portfolio">
                 <h2 class="section-title-left">Portfolio</h2>
                 <ul class="portfolio-list">
@@ -168,9 +168,10 @@
                   </li>
                 </ul>
               </section>
-            </div>
+            </section>
           </aside>
           <section class="right-column">
+            <h2 class="visually-hidden">Main Content</h2>
             <section class="section" id="summary-statement">
               <h2 class="section-title-right">Summary statement</h2>
               <p>
@@ -202,7 +203,7 @@
                 environments.
               </p>
             </section>
-            <br />
+            <br>
             <section class="section" id="code-review">
               <h2 class="section-title-right">Code review</h2>
               <h3>KATA from LeetCode - Two sum:</h3>
@@ -216,7 +217,7 @@
               <pre><code>
                function(nums, target) {
                  const map = new Map();
-                 for (let i = 0; i < nums.length; i++) {
+                 for (let i = 0; i &lt; nums.length; i++) {
                    let diff = target - nums[i];
                    if (map.has(diff)) {
                      return [i, map.get(diff)];
@@ -227,7 +228,7 @@
                }
             </code></pre>
             </section>
-            <br />
+            <br>
             <section class="section" id="work-experience">
               <h2 class="section-title-right">Work experience</h2>
               <h3>Full-Stack Developer</h3>
@@ -259,7 +260,7 @@
                 </li>
               </ul>
             </section>
-            <br />
+            <br>
             <section class="section" id="education">
               <h2 class="section-title-right">Education</h2>
               <div class="education-item">
@@ -288,7 +289,7 @@
             alt="github icon"
             width="30"
             height="30"
-          />
+          >
           <a href="https://github.com/Derril87"> Derril87</a>
         </div>
         <div>
@@ -298,7 +299,7 @@
               alt="RS School logo"
               width="150"
               height="150"
-          /></a>
+          ></a>
         </div>
       </div>
     </footer>
