@@ -1,6 +1,6 @@
 # Yaroslav Baliuk
 
-<img src="assets/photo.jpg" alt="My photo" width="110" height="140">
+<img src="assets/photo.jpeg" alt="My photo" width="110" height="140">
 
 ---
 
@@ -48,7 +48,7 @@ I am determined, persistent, and resilient — qualities that help me stay on tr
 _Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice._
 
 ```js
-function(nums, target) {
+function twoSum (nums, target) {
   const map = new Map();
   for (let i = 0; i < nums.length; i++) {
     let diff = target - nums[i];
