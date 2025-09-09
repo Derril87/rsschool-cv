@@ -23,7 +23,6 @@ body {
     font-size: 24px;
     padding: 5px 10px;
     background-color: #f4d18b;
-    background: none;
     border: none;
     cursor: pointer;
 }
@@ -136,13 +135,9 @@ body {
     border-radius: 50%;
     margin-top: 10px;
     object-fit: cover;
-    padding: 2px;
-    border: 2px solid #000000;
-}
-
-.header-photo img {
-    object-fit: cover;
-    object-position: center 20px;
+    object-position: center 7px;
+    background: linear-gradient(to top, #69b1ef, #258fe4);
+    border: 2px solid #020440;
 }
 
 .photo-wrapper {
